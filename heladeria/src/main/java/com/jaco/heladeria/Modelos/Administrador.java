@@ -1,5 +1,6 @@
 package com.jaco.heladeria.Modelos;
 
+
 public class Administrador
 {
     private String nombre;

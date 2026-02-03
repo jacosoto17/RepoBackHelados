@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/helados")
 public class HeladoController {
-    private final HeladoService heladoService;
+    private final IProductoRepositorio heladoService;
 
     public HeladoController(HeladoController heladoController){this.heladoService = heladoService;}
     @PostMapping
